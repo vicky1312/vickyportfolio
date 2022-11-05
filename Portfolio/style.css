@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    width: 100%;
+    background-image: url(bodyimg6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    color: aliceblue;
+}
+header{
+    background-image: url(header6.jpg); height: 3em; width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em 1em;
+}
+.heading{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    -webkit-text-stroke: 1px aliceblue;
+    color: transparent;
+    font-size: 50px;
+    position: relative; right: 5em;
+}
+h1::before{
+    content: attr(data-text);
+    -webkit-text-stroke: 0px #383d52;
+    border-right: 2px solid green;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate{
+    0%{
+        width: 0;
+    }
+    90%{
+        width: 100%s;
+    }
+}
+.socials{
+    justify-content: space-between;
+    width: 5em;
+    font-size: 1.5em;
+    color: wheat;
+
+}
+a, .link{
+    text-decoration: none;
+    color: black;
+    color: rgba(128, 128, 128, 0.779);
+    font-size: 1.2em;
+}
+a, .link:hover{
+    color: aliceblue;
+}
+.bod{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.attributes{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.tag{
+    display: flex;
+}
+
+.img{
+    position: relative; left: 10%; top: 2em;
+    opacity: 0.5;
+}
+.introduction1{
+    width: 100%;
+}
+button{
+    height: 3em;
+    width: 12em;
+    margin-top: 5%;
+    margin-left: 50%;
+    border-radius: 10px;
+    border: none;
+    background-color:hsl(208,34%,27%); 
+}
+a, .butn{
+    color: aliceblue;
+}
+button:hover{
+    box-shadow: 0.5px 1px 0px 3px grey;
+}
+@media screen and (max-width: 750px) {
+    header{
+        width: 100%;
+    }
+    .socials{
+        margin-right: 3em;
+        font-size: 15px;
+    }
+    .bod{
+        display: block;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .introduction1{
+        margin-left: 1.3em;
+    }
+    h3{
+        width: 80%;
+    }
+    .attributes{
+        width: 80%;
+        margin-left: 1.5em;
+        margin-top: 2em;
+        margin-bottom: 3em;
+    }
+    img{
+        border-radius: 50%;
+        width: 17em;
+        height: 15em;
+        filter: brightness(100%);
+        margin-bottom: 3em;
+        position: relative; right: 1.5em;
+    }
+    button{
+        position: relative; right: 27%; bottom: 1em;
+    }
+}

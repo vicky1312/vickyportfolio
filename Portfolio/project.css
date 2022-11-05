@@ -1,0 +1,245 @@
+body{
+    margin: auto;
+    width: 100%;
+    background-image: url(bodyimg6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    color: aliceblue;
+}
+header{
+    background-image: url(header6.jpg); height: 3em; width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1em 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.heading{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.socials{
+    justify-content: space-between;
+    width: 5em;
+    font-size: 1.5em;
+    color: wheat;
+
+}
+a, .link{
+    text-decoration: none;
+    color: black;
+    color: rgba(128, 128, 128, 0.779);
+    font-size: 1.2em;
+}
+a, .link:hover{
+    color: aliceblue;
+}
+.projects{
+    display: block;
+    margin-top: 3%;
+    justify-content: space-between;
+}
+.firstrow{
+    display: flex;
+}
+p{
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.pracimg{
+    width: 40%;
+    height: 10em;
+}
+.pracpar{
+    width: 40%;
+}
+.projimg{
+    width: 100%;
+    height: 10em;
+}
+.hudimg{
+    height: 10em;
+    width: 55%;
+}
+.pracport{
+    position: relative; left: 2em;
+}
+.pracproj{
+    position: relative; right: 8em;
+}
+.huddle{
+    position: relative; left: 6em;
+}
+.hudpar{
+    width: 55%;
+}
+button{
+    height: 3em;
+    border-radius: 10px;
+    border: none;
+    background-color:hsl(208,34%,27%); 
+}
+a, .butn{
+    color: aliceblue;
+}
+button:hover{
+    box-shadow: 0.5px 1px 0px 3px grey;
+}
+.butn1{
+    width: 40%;
+}
+.butn2{
+    margin-top: 22%;
+    width: 100%;
+}
+.butn3{
+    margin-top: 4%;
+    width: 55%;
+}
+.secondrow{
+    display: flex;
+    margin-top: 7em;
+}
+.grid{
+position: relative; left: 2em;
+}
+.chess{
+position: relative; left: 7.3em;
+}
+.rosa{
+position: relative; left: 26.5%;
+}
+.gridimg{
+    width: 70%;
+    height: 10em;
+}
+.gridpar{
+    width: 70%;
+}
+.chessimg{
+    width: 100%;
+    height: 10em;
+}
+.rosaimg{
+    width: 35%;
+    height: 10em;
+}
+.rosapar{
+    width: 35%;
+}
+.butn4{
+    margin-top: 20.5%;
+    width: 70%;
+}
+.butn5{
+    margin-top: 45%;
+    width: 100%;
+}
+.butn6{
+    width: 35%;
+}
+.thirdrow{
+    display: flex;
+    margin-top: 7em;
+    position: relative; bottom: 3em;
+}
+.tip{
+position: relative; left: 2em;
+}
+.djangoapp{
+position: relative; right: 2.5em;
+}
+.tipimg{
+    width: 55%;
+    height: 10em;
+}
+.tippar{
+    width: 55%;
+}
+.appimg{
+    width: 37%;
+    height: 10em;
+}
+.apppar{
+    width: 37%;
+}
+.butn7{
+    width: 55%;
+    margin-top: 10.5%;
+}
+.butn8{
+    width: 37%;
+}
+@media  screen and (max-width: 750px) {
+    .projects{
+        display: block;
+    }
+    .firstrow{
+        display: block;
+    }
+    .secondrow{
+        display: block;
+    }
+    .thirdrow{
+        display: block;
+    }
+    .pracport{
+        width: 200%;
+    }
+    .pracproj{
+        width: 80%;
+        margin-left: 50%;
+        margin-top: 3em;
+    }
+    .projimg{
+        height: 12em;
+    }
+    .butn2{
+        margin-top: 2em;
+    }
+    .huddle{
+        margin-top: 3em;
+        width: 145%;
+        position: relative; left: 2.2em;
+    }
+    .grid{
+        width: 117%;
+    }
+    .butn4{
+        margin-top: 2em;
+    }
+    .chess{
+        margin-top: 3em;
+        position: relative; left: 2em;
+        width: 83%;
+    }
+    .butn5{
+        margin-top: 2em;
+    }
+    .rosa{
+        width: 235%;
+        position: relative; left: 2em;
+        margin-top: 3em;
+    }
+    .butn6{
+        margin-top: 2em;
+    }
+    .tip{
+        width: 150%;
+        margin-left: 0.3em;
+        margin-top: 3em;
+    }
+    .butn7{
+        margin-top: 2em;
+    }
+    .djangoapp{
+        width: 225%;
+        margin-left: 4.7em;
+        margin-top: 5em;
+        position: relative; bottom: 3em;
+    }
+    .butn8{
+        margin-top: 2em;
+    }
+}
